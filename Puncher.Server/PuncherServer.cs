@@ -58,6 +58,7 @@ namespace Puncher.Server
                                 for (int i = 0; i < addressesToRemove.Count; i++)
                                 {
                                     _listenerClients.Remove(addressesToRemove[i]);
+                                    Console.WriteLine("removed "+addressesToRemove[i].ToString()+"from listeners list");
                                 }
                             }
                             finally
@@ -126,6 +127,7 @@ namespace Puncher.Server
                             client.IsConnector = isConnector;
                             client.IsListener = isListener;
                             client.LastRegisterTime = DateTime.Now;
+                            Console.WriteLine("Updated listener : "+senderEndpoint.Address.ToString());
                         }
                         finally
                         {
@@ -145,6 +147,7 @@ namespace Puncher.Server
                                 IsListener = isListener,
                                 LastRegisterTime = DateTime.Now
                             });
+                            Console.WriteLine("added listener :"+senderAddress.ToString());
                         }
                         finally
                         {
@@ -223,6 +226,7 @@ namespace Puncher.Server
 
                         // Send to listener
                         Transport.SendTo(_buffer, 0, _buffer.Length, -1, listenerClient.EndPoint);
+                        Console.WriteLine(listenerClient.EndPoint.Address.ToString()+"'s data has been sent to connector"+senderEndpoint.Address.ToString());
                     }
                     else
                     {
@@ -234,6 +238,7 @@ namespace Puncher.Server
 
                         // Send error
                         Transport.SendTo(_buffer, 0, _buffer.Length, -1, senderEndpoint);
+                        Console.WriteLine("listener :"+listenerAddress.ToString()+" requested by "+senderAddress.ToString()+" has not been found");
                     }
                 }
                 finally
