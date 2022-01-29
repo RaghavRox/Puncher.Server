@@ -1,2 +1,5 @@
 ﻿using Puncher.Server;
-Console.WriteLine(PuncherServer.test());
+using System.Net;
+
+PuncherServer server = new PuncherServer();
+server.Start(new IPEndPoint(IPAddress.Any, 6776));
