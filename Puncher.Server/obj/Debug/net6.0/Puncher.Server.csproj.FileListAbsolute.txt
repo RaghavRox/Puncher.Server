@@ -1,0 +1,12 @@
+D:\Puncher.Server\Puncher.Server\bin\Debug\net6.0\Puncher.Server.deps.json
+D:\Puncher.Server\Puncher.Server\bin\Debug\net6.0\Puncher.Server.dll
+D:\Puncher.Server\Puncher.Server\bin\Debug\net6.0\ref\Puncher.Server.dll
+D:\Puncher.Server\Puncher.Server\bin\Debug\net6.0\Puncher.Server.pdb
+D:\Puncher.Server\Puncher.Server\obj\Debug\net6.0\Puncher.Server.csproj.AssemblyReference.cache
+D:\Puncher.Server\Puncher.Server\obj\Debug\net6.0\Puncher.Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\Puncher.Server\Puncher.Server\obj\Debug\net6.0\Puncher.Server.AssemblyInfoInputs.cache
+D:\Puncher.Server\Puncher.Server\obj\Debug\net6.0\Puncher.Server.AssemblyInfo.cs
+D:\Puncher.Server\Puncher.Server\obj\Debug\net6.0\Puncher.Server.csproj.CoreCompileInputs.cache
+D:\Puncher.Server\Puncher.Server\obj\Debug\net6.0\Puncher.Server.dll
+D:\Puncher.Server\Puncher.Server\obj\Debug\net6.0\ref\Puncher.Server.dll
+D:\Puncher.Server\Puncher.Server\obj\Debug\net6.0\Puncher.Server.pdb
